@@ -11,25 +11,18 @@ function mrRoboger(number){
       return "Beep!";
     } else 
       return numbersArray.join('');
-  }} 
+  }
+} 
 
-  // UI logic
+// UI logic
 
 function userInput(event){
   event.preventDefault();
-  const robogerLanguage = document.getElementById("translate").value
-
+  const robogerInput = document.getElementById("input").value;
+  const results = mrRoboger(robogerInput);
+  const output = document.getElementById("output");
+  output.innerText = results;
 }
   window.addEventListener("load", function(){
-    document.getElementById("roboger").addEventListener("submit", );
+    document.getElementById("roboger").addEventListener("submit", userInput);
   });
-  
-
-  //   const userInput = document.getElementById("translate").value;
-  //   const inputArray = userInput().split('').map(Number);
-  //   const inputResults = inputArray.map(function(number){
-  //     return mrRoboger(number);
-  //   });
-  //
-
-

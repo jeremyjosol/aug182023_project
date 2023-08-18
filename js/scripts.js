@@ -2,7 +2,8 @@
 
 function mrRoboger(number){
   let numbersArray = number.split(' ');
-  numbersArray.forEach(function(integer){
-  });
-  return numbersArray;
-}
+  for (let i = 0; i < numbersArray.length; i++){
+    if (numbersArray[i][0] === "1")
+      return "Beep!";
+    } 
+  }

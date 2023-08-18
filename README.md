@@ -35,6 +35,10 @@ Test 8: "If a double digit number that starts with 1, 4, 5, 6, 7, 8, and 9 ends 
 Code: mrRoboger(41);
 Expected Output: "Beep!"
 
-Test 9: "If a double digit number that starts with 2, 4, 5, 6, 7, 8, and 9 ends with the number 2, it will replace that number with "Boop!" but in order to do that, we must refactor the hierachy.
+Test 9: "If a double digit number that starts with 2, 4, 5, 6, 7, 8, and 9 ends with the number 2, it will replace that number with "Boop!" but in order to do that, we must refactor the hierachy."
 Code: mrRoboger(12);
 Expected Output: "Boop!"
+
+Test 10: "If a double digit number that starts with 3, 4, 5, 6, 7, 8, and 9 ends with the number 3, it will replace that number with "Boop!" but in order to do that, we must refactor the hierachy again."
+Code: mrRoboger(13);
+Expected Output: "Won't you be my neighbor?"

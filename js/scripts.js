@@ -15,4 +15,21 @@ function mrRoboger(number){
 
   // UI logic
 
-  function userInput()
+function userInput(event){
+  event.preventDefault();
+  const robogerLanguage = document.getElementById("translate").value
+
+}
+  window.addEventListener("load", function(){
+    document.getElementById("roboger").addEventListener("submit", );
+  });
+  
+
+  //   const userInput = document.getElementById("translate").value;
+  //   const inputArray = userInput().split('').map(Number);
+  //   const inputResults = inputArray.map(function(number){
+  //     return mrRoboger(number);
+  //   });
+  //
+
+

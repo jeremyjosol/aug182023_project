@@ -1,10 +1,26 @@
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+  img { width: 100%;
+        max-width: 400px;
+  }}
+
+@media only screen and (min-width: 350px) and (max-width: 550px) {
+  img { 
+    width: 100%;
+    max-width: 400px; 
+  }}
+
 html {
   text-align: center;
   justify-content: center;
+  
+}
+
+body{
+  font-family: 'Orbitron', sans-serif;
 }
 
 h1 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: inherit;
 }
 
 img {
@@ -14,18 +30,48 @@ img {
 .form-control {
   width: 60%;
   margin: auto;
+  opacity: 35%;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+::placeholder {
+  opacity: 100%;
+  font-style: italic;
+}
+
+#output {
+  font-family: inherit;
+}
+
+#output-nan {
+  color: red;
 }
 
 .btn {
   width: 60%;
   margin-top: 5px;
   padding: 10px;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 #output {
-  font-family: 'Space Mono', monospace;
-}
-
-#output-nan {
-  color: red;
+  margin: auto;
+  width: 60%;
+  
 }

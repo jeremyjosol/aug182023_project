@@ -7,7 +7,7 @@ Jeremy Josol
 This application features a webpage that takes a user number input and outputs a phrase from Mr. Roboger if the number contains 1, 2, or 3.
 
 ## Github Pages
-[JJ - Mr. Roboger's Neighborhood - Click to View](https://jeremyjosol.github.io/aug112023_project/)
+[JJ - Mr. Roboger's Neighborhood - Click to View](https://jeremyjosol.github.io/aug182023_project/)
 
 ## Technologies Used
 * HTML

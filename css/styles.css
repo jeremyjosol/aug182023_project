@@ -84,6 +84,10 @@ img {
 	animation: gradient 15s ease infinite;
 }
 
+.form-control:hover {
+  opacity: 100%;
+}
+
 ::placeholder {
   opacity: 100%;
   font-style: italic;

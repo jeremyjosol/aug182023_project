@@ -12,3 +12,7 @@ function mrRoboger(number){
     } else 
       return numbersArray.join('');
   }} 
+
+  // UI logic
+
+  function userInput()

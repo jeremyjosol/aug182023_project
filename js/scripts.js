@@ -2,6 +2,6 @@
 
 function mrRoboger(number){
   parseInt(number);
-  if (number === 1)
+  if (number === "1")
   return "beep";
 }

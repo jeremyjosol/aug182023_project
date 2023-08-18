@@ -42,3 +42,6 @@ Expected Output: "Boop!"
 Test 10: "If a double digit number that starts with 3, 4, 5, 6, 7, 8, and 9 ends with the number 3, it will replace that number with "Boop!" but in order to do that, we must refactor the hierachy again."
 Code: mrRoboger(13);
 Expected Output: "Won't you be my neighbor?"
+
+Test 11: "If we isolate index [0] and [1] per branch statement, we need to achieve the same rules going forward if it is a triple, quadruple, etc digit number. Instead of isolating only index [0] and [1], we can replace this logic with the .includes() method."
+Code: mrRoboger(10003);

@@ -27,7 +27,7 @@ This application features a webpage that takes a user number input and outputs a
 ## Known Bugs
 No major bugs known. Please kindly report any known issues to the repository's creator.
 
-## Testing
+## Tests
 
 Describe: mrRoboger()
 

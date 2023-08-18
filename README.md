@@ -26,3 +26,7 @@ Expected Output: "Boop!"
 Test 6: "If a number that starts with 3 contains an index of [0], it will replace that number with "Won't you be my neighbor?".
 Code: mrRoboger(3);
 Expected Output: "Won't you be my neighbor?"
+
+Test 7: "If a single digit number including 0 that isn't 1, 2, 3 is entered, it will output the number entered.
+Code: mrRoboger(0);
+Expected Output: 0

@@ -1,7 +1,8 @@
 // Business logic
 
 function mrRoboger(number){
-  parseInt(number);
-  if (number === "1")
-  return "beep";
+  let numbersArray = number.split(' ');
+  numbersArray.forEach(function(integer){
+  });
+  return numbersArray;
 }

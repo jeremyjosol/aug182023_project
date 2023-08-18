@@ -1,0 +1,11 @@
+h1 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+#output {
+  font-family: 'Space Mono', monospace;
+}
+
+#output-nan {
+  color: red;
+}

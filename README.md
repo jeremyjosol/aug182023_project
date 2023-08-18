@@ -32,3 +32,9 @@ Code: mrRoboger(0);
 Expected Output: 0
 
 Test 8: "If a double digit number that starts with 1, 4, 5, 6, 7, 8, and 9 ends with the number 1, it will replace that number with "Beep!".
+Code: mrRoboger(41);
+Expected Output: "Beep!"
+
+Test 9: "If a double digit number that starts with 2, 4, 5, 6, 7, 8, and 9 ends with the number 2, it will replace that number with "Boop!".
+Code: mrRoboger(42);
+Expected Output: "Boop!"

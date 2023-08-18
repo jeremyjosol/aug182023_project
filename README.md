@@ -30,3 +30,5 @@ Expected Output: "Won't you be my neighbor?"
 Test 7: "If a single digit number including 0 that isn't 1, 2, 3 is entered, it will output the number entered.
 Code: mrRoboger(0);
 Expected Output: 0
+
+Test 8: "If a double digit number that starts with 1, 4, 5, 6, 7, 8, and 9 ends with the number 1, it will replace that number with "Beep!".

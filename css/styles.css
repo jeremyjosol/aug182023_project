@@ -1,13 +1,61 @@
-@media only screen and (min-width: 400px) and (max-width: 800px) {
+@media only screen and (min-width: 800px) {
   img { width: 100%;
+        max-width: 750px;
+  }
+  .form-control,
+  .btn {
+        width: 60%;
         max-width: 400px;
-  }}
+  }
+}
 
-@media only screen and (min-width: 350px) and (max-width: 550px) {
+@media only screen and (min-width: 600px) and (max-width: 799px) {
   img { 
-    width: 100%;
-    max-width: 400px; 
-  }}
+    width: 90%;
+    max-width: 600px;
+  }
+  .form-control,
+  .btn {
+    width: 70%;
+    max-width: 400px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+  img { 
+    width: 90%;
+    max-width: 400px;
+  }
+  .form-control,
+  .btn {
+    width: 80%;
+    max-width: 300px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+  img { 
+    width: 90%;
+    max-width: 300px;
+  }
+  .form-control,
+  .btn {
+    width: 90%;
+    max-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  img { 
+    width: 80%;
+    max-width: 375px;
+  }
+  .form-control,
+  .btn {
+    width: 80%;
+    max-width: 300px;
+  }
+}
 
 html {
   text-align: center;
@@ -24,7 +72,7 @@ h1 {
 }
 
 img {
-  border-radius: 75%;
+  border-radius: 95
 }
 
 .form-control {

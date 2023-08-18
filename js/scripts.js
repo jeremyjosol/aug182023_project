@@ -9,6 +9,6 @@ function mrRoboger(number){
       return "Boop!";
     } else if (numbersArray[0] === "3"){
       return "Won't you be my neighbor?";
-    }
-  }
-  }
+    } else if (numbersArray[0] === "0" || numbersArray[0] >= 4 < 9)
+      return numbersArray[0];
+  }}

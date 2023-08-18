@@ -1,9 +1,9 @@
 // Business logic
 
 function mrRoboger(number){
-  let numbersArray = number.split(' ');
+  let numbersArray = number.split('');
   for (let i = 0; i < numbersArray.length; i++){
-    if (numbersArray[0] === "1"){
+    if (numbersArray[0] === "1" || (numbersArray[1] === "1")){
       return "Beep!";
     } else if (numbersArray[0] === "2"){
       return "Boop!";

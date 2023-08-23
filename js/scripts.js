@@ -32,9 +32,9 @@ function userInput(event){
   const robogerInput = document.getElementById("input").value;
   if(!isNaN(robogerInput)){
     const results = mrRoboger(robogerInput);
-    robogerArray.push(results);
+    robogerArray = [results];
     } else { 
-      robogerArray.push("Error!");
+      robogerArray = ["Error!"];
     }
     const output = document.getElementById("output");
     output.innerText = robogerArray.join(' ');

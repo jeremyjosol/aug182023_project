@@ -1,13 +1,10 @@
-# Mr Roboger
+# Mr Roboger's Neighborhood
 
 ## Contributors
 Jeremy Josol
 
 ## About
 This application features a webpage that takes a user number input and outputs a phrase from Mr. Roboger if the number contains 1, 2, or 3.
-
-## Github Pages
-[Mr. Roboger's Neighborhood - Click to View](https://jeremyjosol.github.io/aug182023_project/)
 
 ## Technologies Used
 * HTML
@@ -18,11 +15,15 @@ This application features a webpage that takes a user number input and outputs a
 * Google Fonts
 
 ## Application Setup
+```
 1. Clone the repository via GitHub
 2. Open the 'aug182023_project.zip' file
 3. Once the file has been zipped, open 'aug182023_project'
 4. Open the 'index.html' file to view the project on your local browser
 5. Alternatively, the project can be viewed from the Github Pages link
+```
+## Github Pages
+[Mr. Roboger's Neighborhood - Click to View](https://jeremyjosol.github.io/aug182023_project/)
 
 ## Known Bugs
 No major bugs known. Please kindly report any known issues to the repository's creator.
@@ -30,7 +31,7 @@ No major bugs known. Please kindly report any known issues to the repository's c
 ## Tests
 
 Describe: mrRoboger()
-
+```
 Test 1: "If a single digit is entered, it will return that value"
 Code: mrRoboger(1);
 Expected Output: 1
@@ -78,6 +79,7 @@ Expected Output: "Won't you be my neighbor?"
 Test 12: "Final refactor, all tests complete. Add "..." to the end of every input."
 Code: mrRoboger(4);
 Expected Output: "4..."
+```
 
 ## License
 
